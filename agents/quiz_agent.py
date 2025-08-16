@@ -31,7 +31,7 @@ def llm_generate_question(topic: str = "general knowledge") -> Dict:
 
 def run_agent():
     print("""Quiz Agent ready! 
-Type 'ask' (or 'ask <topic>') to get a question, then answer with A/B/C/D.
+Type 'ask' (or 'ask <topic>')(e.g. 'ask about football') to get a question, then answer with A/B/C/D.
 Type 'skip' for a new question, 'exit' to quit.""")
     current = None  # holds dict with question/options/answer/explanation
 

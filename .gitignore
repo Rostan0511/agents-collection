@@ -1,0 +1,23 @@
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+
+# Jupyter/Colab
+.ipynb_checkpoints/
+
+# Secrets
+.env
+*.env
+
+key.txt
+key
